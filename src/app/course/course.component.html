@@ -1,3 +1,11 @@
-<h1>{{title}}</h1>
-<h2>{{title2}}</h2>
+<h1>
+  <div style="text-align: center">{{title}}</div>
+  <div style="text-align: center">{{date | date:format}}</div>
+</h1>
+
+<h2>
+  {{'Nama: ' + nama}} <br>
+  {{'Alamat: ' + alamat}} <br>
+  {{'Hobby saya'}}
+</h2>
   <ul><li *ngFor="let Course of Courses">{{Course.name}}</li></ul>
