@@ -1,6 +1,15 @@
 <p>
-  course works!
+  {{title}}
 </p>
-<p>
-  {{getTitle()}}
-</p>
+<table>
+  <thead>
+    <th>#ID</th>
+    <th>Course name</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let Course of Courses">
+      <td>{{Course.id}}</td>
+      <td>{{Course.name}}</td>
+    </tr>
+  </tbody>
+</table>

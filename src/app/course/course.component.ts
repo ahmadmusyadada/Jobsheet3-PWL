@@ -8,10 +8,14 @@ import { Component, OnInit } from '@angular/core';
 export class CourseComponent implements OnInit {
 
   title = 'Belajar Angular';
-  getTitle(){
-    return this.title;
-  }
-  
+  Courses = [
+    {id: 0, name: 'HTML'},
+    {id: 1, name: 'PHP'},
+    {id: 2, name: 'ANGULAR'},
+    {id: 3, name: 'C#'},
+    {id: 4, name: 'VB.NET'}
+  ]
+
   constructor() { }
 
   ngOnInit() {
