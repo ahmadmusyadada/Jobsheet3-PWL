@@ -19,9 +19,9 @@ export class CoursesService {
 
   getCourses(){
     return [
-      {name: 'Author1'},
-      {name: 'Author2'},
-      {name: 'Author3'},
+      {no: 1, hobby: 'Berlari', keterangan: 'Lari 1 jam tiap hari'},
+      {no: 2, hobby: 'Senam', keterangan: 'Senam tiap sore'},
+      {no: 3, hobby: 'Bermain musik', keterangan: 'Bermain musik saat waktu senggang'},
     ]
   }
 }
