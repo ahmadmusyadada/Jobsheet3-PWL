@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CourseComponent implements OnInit {
 
+  title = 'Belajar Angular';
+  getTitle(){
+    return this.title;
+  }
+  
   constructor() { }
 
   ngOnInit() {
