@@ -8,7 +8,8 @@ import { CoursesService } from '../courses.service';
 })
 export class CoursesComponent implements OnInit {
 
-  title = 'Belajar Angular';
+  title = 'Angular';
+  title2 = '3 Authors';
   Courses;
 
   constructor(private service: CoursesService) {
